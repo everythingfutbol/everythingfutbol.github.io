@@ -58,8 +58,22 @@
 .media {
     padding: 30px;
     display:flex;
+    flex-wrap:wrap
 }
 
 .media figure {
     margin:auto
+}
+
+figure.medialogo.ytlogoalt {
+    display:none
+}
+
+@media screen and (max-width:650px) {
+    figure.medialogo.ytlogoalt {
+        display:block
+    }
+    figure.medialogo.ytlogomain {
+        display:none
+    }
 }
