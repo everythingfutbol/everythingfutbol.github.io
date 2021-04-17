@@ -11,27 +11,54 @@
     font-family: 'Roboto Mono', monospace;
 }
 
+strong {
+    font-weight: bolder
+}
+
+a {
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.menu a.active {
+    color:white;
+}
+a:active {
+    color:green;
+    font-weight:bold
+}
+
+/* Nav Bar */
 .menu {
     display:flex;
     background-color: gray;
     color: white;
-    padding: 20px
+    padding: 20px;
+    /*position:fixed;
+    top:0;
+    width:100%;
+    overflow:hidden*/
 }
 .menu li {
     margin:auto;
     list-style-type: none;
 }
 
-strong {
-    font-weight: bolder
-}
-
 /* Header */
+header .logo a{
+    background-image: url('images/eflogo.png');
+    background-repeat: no-repeat;
+    display:inline-block;
+    text-indent: -999999px;
+    width:120px;
+    height:100px;
+}
 .mainpic {
     text-align:center;
     background-color: rgb(88, 88, 88);
     color: white;
     padding: 60px;
+    /*margin-top:120px*/
 }
 .mainpic h1 {
     font-size: 50px;
@@ -87,6 +114,7 @@ figure.medialogo.ytlogoalt {
 }
 
 /* About Page */
-section.bob {
-    background-color: black;
+.about {
+    padding: 50px;
+    text-align: center;
 }
