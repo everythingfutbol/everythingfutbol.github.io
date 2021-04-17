@@ -22,6 +22,10 @@
     list-style-type: none;
 }
 
+strong {
+    font-weight: bolder
+}
+
 /* Header */
 .mainpic {
     text-align:center;
@@ -37,12 +41,13 @@
 /* Videos */
 .videos {
     background-color: black;
-    color:white;
+    color:rgb(117, 14, 143);
     padding: 30px;
 }
 .videos h1 {
     text-align:center;
-    margin-bottom: 30px
+    margin-bottom: 30px;
+    font-weight:bold
 }
 .video-container {
     display:flex;
@@ -76,4 +81,12 @@ figure.medialogo.ytlogoalt {
     figure.medialogo.ytlogomain {
         display:none
     }
+    .media figure {
+        margin-bottom:10px
+    }
+}
+
+/* About Page */
+section.bob {
+    background-color: black;
 }
