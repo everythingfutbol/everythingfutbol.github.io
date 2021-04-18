@@ -35,8 +35,8 @@ a:active {
     background-color: gray;
     color: white;
     padding: 20px;
-    padding-top:5px;
-    padding-bottom:5px
+    padding-top: 0px;
+    padding-bottom:0px;
     /*position:fixed;
     top:0;
     width:100%;
@@ -56,7 +56,6 @@ header .logo a{
     height:100px;
 }
 
-
 /* Header */
 .mainpic {
     text-align:center;
@@ -70,6 +69,7 @@ header .logo a{
 
     /*margin-top:120px*/
 }
+
 .mainpic h1 {
     font-size: 50px;
     margin-top:100px;
